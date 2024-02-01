@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .header {
+            background-color: #008CBA;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .header h1 {
+            margin: 0;
+        }
+        
+        .job-listings {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .job-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .job-card h2 {
+            margin-top: 0;
+        }
+        
+        .job-card button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Find your Dream Job</h1>
+        <p>4536+ Jobs listed</p>
+        <button type="button">Upload Your Resume</button>
+    </div>
+    <div class="job-listings">
+        <div class="job-card">
+            <h2>Job Title 1</h2>
+            <p>Company Name 1</p>
+            <p>Location 1</p>
+            <button type="button">Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h2>Job Title 2</h2>
+            <p>Company Name 2</p>
+            <p>Location 2</p>
+            <button type="button">Apply Now</button>
+        </div>
+        <!-- Add more job cards as needed -->
+    </div>
+</body>
+
+</html>
