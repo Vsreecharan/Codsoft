@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivasa Ramanujan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        
+        header {
+            background-color: #41ff07;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        main {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        h1,
+        h2 {
+            color: #f35e07;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-top: 0;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #e3e709;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Srinivasa Ramanujan</h1>
+    </header>
+    <main>
+        <h2>Admirable Qualities</h2>
+        <p>Srinivasa Ramanujan, a self-taught mathematical genius, possessed extraordinary qualities that continue to inspire:</p>
+        <ul>
+            <li><strong>Intuitive Insights:</strong> Ramanujan had a unique ability to see mathematical patterns and relationships intuitively.</li>
+            <li><strong>Dedication:</strong> Despite facing numerous challenges, Ramanujan remained dedicated to his passion for mathematics.</li>
+            <li><strong>Persistence:</strong> His relentless pursuit of knowledge and solutions led to groundbreaking discoveries in mathematics.</li>
+        </ul>
+
+        <h2>Images</h2>
+        <img src="data:image/jpeg;base64,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"
+            alt="Srinivasa Ramanujan">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Srinivasa_Ramanujan_-_OPC_-_1.jpg/800px-Srinivasa_Ramanujan_-_OPC_-_1.jpg" alt="Ramanujan's handwritten notes">
+
+        <h2>Legacy</h2>
+        <p>Ramanujan's contributions to mathematics have left an indelible mark, influencing generations of mathematicians and researchers. His work in areas such as number theory and infinite series continues to be studied and admired.</p>
+
+    </main>
+    <footer>
+        <p>Created with admiration for the remarkable Srinivasa Ramanujan.</p>
+    </footer>
+</body>
+
+</html>
